@@ -1,0 +1,50 @@
+
+@font-face {
+    font-family: Marmelad-Regular;
+    src: url(fonts/Marmelad-Regular.ttf);
+}
+#header{
+    background-color: azure;
+}
+.size-text-25px{
+    font-size: 25px;
+}
+.h-100{
+    height: 100%;
+}
+.w-100{
+    width: 100%;
+}
+.align-item-center{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    text-decoration: none;
+    color: #57233A;
+    font-family: Marmelad-Regular;
+}
+.logo:hover{
+    color: #57233A;
+}
+.logo > h1{
+    margin: 0px;
+}
+.logo>h1>span>i{
+    margin: 0px !important;
+}
+.navbar-nav{
+    display: block;
+    flex-wrap: wrap;
+}
+.navbar-nav>li{
+    display: inline-block;
+}
+.navbar-nav>li>a{
+    padding: 0 20px;
+    color: #73777b !important;
+    line-height: 70px;
+    font-size: 12pt;
+    font-family: Marmelad-Regular;
+}
