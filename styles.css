@@ -76,6 +76,7 @@
     width: 100%;
     position: fixed;
     max-height: 100vh;
+    
 }
 .zs-slide{
     
@@ -84,4 +85,5 @@
     position: absolute;
     background-size: cover;
     visibility: visible;
+    
 }
